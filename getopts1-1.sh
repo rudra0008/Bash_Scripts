@@ -19,12 +19,6 @@ while getopts ":n:" opt; do
       echo "Option: -n , Argument: any name.";
       exit 1
      ;;
-    *)
-      echo "Invalid option: -$OPTARG";
-      echo "USAGE: ./getopts1-1.sh <option> <argument>";
-      echo "Option: -n , Argument: any name.";
-      exit 1
-      ;;
   esac
 done
 fi
